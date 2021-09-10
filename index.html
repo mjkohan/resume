@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -20,13 +22,13 @@
                             <li>
                                 <div class="contact-info">
                                     <i class="fas fa-mobile-alt" aria-hidden="true"></i>
-                                    09120343644
+                                    <a href="tel:09120343644">09120343644</a>
                                 </div>
                             </li>
                             <li>
                                 <div class="contact-info">
                                     <div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
-                                    Kohankan.mj@gmail.com
+                                    <a href="mailto:Kohankan.mj@gmail.com">Kohankan.mj@gmail.com</a>
                                 </div>
 
                             </li>
@@ -34,7 +36,8 @@
                                 <div class="contact-info">
                                     <div class="icon">
                                         <i class="fas fa-map-signs" aria-hidden="true"></i>
-                                        Tehran
+                                        <a href="https://www.google.com/maps/place/Tehran,+Tehran+Province,+Iran/data=!4m2!3m1!1s0x3f8e00491ff3dcd9:0xf0b3697c567024bc?sa=X&ved=2ahUKEwivxY69yPXyAhVyg_0HHZ7qC1QQ8gF6BAgIEAE">Tehran</a>
+
                                     </div>
                                 </div>
                             </li>
@@ -74,13 +77,25 @@
                         <li>
                             <div class="sub">
                                 <i class="fas fa-school"></i>
-                                Atomic Energy HighSchool 2017-2020
+                                <a href="javascript:showDetailed('more1')" >Atomic Energy HighSchool</a>
+                                <div id="more1" class="more">
+                                    From 2017 to 2020
+                                    <br>
+                                    Grade : 19.5
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="sub">
-                                <i class="fas fa-university"></i>
-                                K. N. Toosi University of Technology 2020-now
+                                <i class="fas fa-school"></i>
+                                <a href="javascript:showDetailed('more2')" >K. N. Toosi University of Technology</a>
+                                <div id="more2" class="more">
+                                    From 2020 to now
+                                    <br>
+                                    Grade : 18.5
+                                    <br>
+                                    Computer Engineering
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -95,12 +110,18 @@
                             <div class="sub">
                                 <i class="fab fa-cuttlefish"></i>
                                 C & C++ : 2 years
+                                <div class="w3-light-grey w3-round-xlarge" style="margin-right: 50px;margin-top: 10px">
+                                    <div class="w3-container w3-blue w3-round-xlarge" style="height: 15px; width:50%"></div>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="sub">
                                 <i class="fab fa-java"></i>
                                 Java : 1 year
+                                <div class="w3-light-grey w3-round-xlarge" style="margin-right: 50px;margin-top: 10px">
+                                    <div class="w3-container w3-blue w3-round-xlarge" style="height: 15px; width:25%"></div>
+                                </div>
                             </div>
                         </li>
                         <li>
@@ -109,12 +130,18 @@
                                 <i class="fab fa-css3-alt"></i>
                                 <i class="fab fa-js"></i>
                                 Html & Css & JavaScripts : less than 1 year
+                                <div class="w3-light-grey w3-round-xlarge" style="margin-right: 50px;margin-top: 10px">
+                                    <div class="w3-container w3-blue w3-round-xlarge" style="height: 15px; width:17.5%"></div>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="sub">
                                 <i class="fab fa-node"></i>
                                 NodeJs : less than 1 year
+                                <div class="w3-light-grey w3-round-xlarge" style="margin-right: 50px;margin-top: 10px">
+                                    <div class="w3-container w3-blue w3-round-xlarge" style="height: 15px; width:17.5%"></div>
+                                </div>
                             </div>
                         </li>
                     </ul>
